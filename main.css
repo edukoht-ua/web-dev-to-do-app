@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    color: #c60000;
+    font-size: 40px;
+    font-family: 'Pacifico';
+}
+
+.main-content {
+    margin: auto;
+    margin-top: 50px;
+    width: 1000px;
+    background-color: #fef2e4;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.header {
+    text-align: center;
+    background-color: #c60000;
+    color: #fef2e4;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#input {
+    font-family: 'Pacifico';
+    font-size: 20px;
+    background-color: #fd974f;
+    color: #fef2e4;
+    height: 30px;
+    width: 500px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #fef2e4;
+    padding: 3px;
+}
+
+.button {
+    font-family: 'Pacifico';
+    background-color: #c60000;
+    color: #fef2e4;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid #fd974f;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #fd974f;
+    color: #c60000;
+}
+
+#clear {
+    background-color: darkred;
+    border: 1px solid darkred;
+}
+
+#clear:hover {
+    background-color: #fd974f;
+    color: #c60000;
+}
+
+.footer {
+    text-align: center;
+    background-color: #c60000;
+    color: #fef2e4;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.to-do {
+    display: flex;
+    border-bottom: 1px solid rgb(70, 70, 70);
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+
+.to-do-text {
+    padding: 20px;
+}
+
+.delete-button {
+    margin: 30px;
+}
+
+.to-do-checked {
+    background-color: #ffb25b;
+}
+
+.to-do-text-checked {
+    text-decoration: line-through;
+}
